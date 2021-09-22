@@ -1471,7 +1471,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /home/javi/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /home/javi/pico/pico-sdk/src/rp2040/hardware_regs /home/javi/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",

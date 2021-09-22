@@ -16,7 +16,6 @@ int main() {
     while (true) {
 
         // Blink LED
-        printf("Blinking!\r\n");
         gpio_put(led_pin, true);
         sleep_ms(1000);
         gpio_put(led_pin, false);
