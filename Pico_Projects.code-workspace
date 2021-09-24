@@ -7,5 +7,7 @@
 			"path": "Pico_Hello_World"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cmake.generator": "MinGW Makefiles"
+	}
 }

@@ -1,5 +1,5 @@
-/home/javi/pico/Pico_Projects/Pico_Blink/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-/home/javi/pico/Pico_Projects/Pico_Blink/build/elf2uf2/CMakeFiles/edit_cache.dir
-/home/javi/pico/Pico_Projects/Pico_Blink/build/elf2uf2/CMakeFiles/elf2uf2.dir
-/home/javi/pico/Pico_Projects/Pico_Blink/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
-/home/javi/pico/Pico_Projects/Pico_Blink/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Blink/build/elf2uf2/CMakeFiles/elf2uf2.dir
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Blink/build/elf2uf2/CMakeFiles/edit_cache.dir
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Blink/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Blink/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Blink/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
