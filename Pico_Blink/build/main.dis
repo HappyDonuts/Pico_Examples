@@ -349,7 +349,7 @@ Disassembly of section .text:
 10000328:	04b6      	lsls	r6, r6, #18
 1000032a:	616e      	str	r6, [r5, #20]
 1000032c:	24fa      	movs	r4, #250	; 0xfa
-1000032e:	00a4      	lsls	r4, r4, #2
+1000032e:	0064      	lsls	r4, r4, #1
 10000330:	0020      	movs	r0, r4
 10000332:	f000 fdcd 	bl	10000ed0 <sleep_ms>
 10000336:	61ae      	str	r6, [r5, #24]
