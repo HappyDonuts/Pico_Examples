@@ -1132,6 +1132,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
+mcp9808/mcp9808.obj: mcp9808/mcp9808.c.obj
+.PHONY : mcp9808/mcp9808.obj
+
+# target to build an object file
+mcp9808/mcp9808.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/mcp9808/mcp9808.c.obj
+.PHONY : mcp9808/mcp9808.c.obj
+
+mcp9808/mcp9808.i: mcp9808/mcp9808.c.i
+.PHONY : mcp9808/mcp9808.i
+
+# target to preprocess a source file
+mcp9808/mcp9808.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/mcp9808/mcp9808.c.i
+.PHONY : mcp9808/mcp9808.c.i
+
+mcp9808/mcp9808.s: mcp9808/mcp9808.c.s
+.PHONY : mcp9808/mcp9808.s
+
+# target to generate assembly for a file
+mcp9808/mcp9808.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/mcp9808/mcp9808.c.s
+.PHONY : mcp9808/mcp9808.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1264,6 +1288,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mcp9808/mcp9808.obj
+	@echo ... mcp9808/mcp9808.i
+	@echo ... mcp9808/mcp9808.s
 .PHONY : help
 
 

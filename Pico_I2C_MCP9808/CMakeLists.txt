@@ -15,6 +15,8 @@ pico_sdk_init()
 # Tell CMake where to find the executable source file
 add_executable(${PROJECT_NAME} 
     main.c 
+    mcp9808/mcp9808.c
+    mcp9808/mcp9808.h
 )
 
 include_directories(Inc)

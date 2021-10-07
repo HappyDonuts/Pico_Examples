@@ -70,4 +70,5 @@ CMakeFiles/main.dir/main.c.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/code.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\include/hardware/i2c.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/i2c.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h \
+ D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_MCP9808\mcp9808/mcp9808.h

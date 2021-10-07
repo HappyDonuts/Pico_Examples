@@ -82,6 +82,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/main.dir/main.c.obj"
   "CMakeFiles/main.dir/main.c.obj.d"
+  "CMakeFiles/main.dir/mcp9808/mcp9808.c.obj"
+  "CMakeFiles/main.dir/mcp9808/mcp9808.c.obj.d"
   "main.elf"
   "main.elf.manifest"
   "main.pdb"
