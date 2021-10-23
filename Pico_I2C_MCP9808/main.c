@@ -62,7 +62,8 @@ int main() {
 
         if (ret_2 == 2) {
             rxdata[0] = (rxdata[0] & 0x0F) << 4; // MSB
-            temp = rxdata[0] + ((float)rxdata[1])/16; // LSB
+            // temp = rxdata[0] + ((float)rxdata[1])/16; // LSB
+            temp = ((rxdata[0] & 0x1F) * 256 + rxdata[1]);
             printf("%.6f\n", temp);
         } else {
             printf("Sensor not detected \n");
