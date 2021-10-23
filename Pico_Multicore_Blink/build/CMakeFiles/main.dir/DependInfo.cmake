@@ -37,6 +37,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_MALLOC=1"
   "LIB_PICO_MEM_OPS=1"
   "LIB_PICO_MEM_OPS_PICO=1"
+  "LIB_PICO_MULTICORE=1"
   "LIB_PICO_PLATFORM=1"
   "LIB_PICO_PRINTF=1"
   "LIB_PICO_PRINTF_PICO=1"
@@ -103,6 +104,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/VSARM/sdk/pico/pico-sdk/src/common/pico_binary_info/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/include"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/include"
   )
 
 # The set of dependency files which are needed:
@@ -133,6 +135,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" "gcc" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" "gcc" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" "gcc" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d"
+  "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" "gcc" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" "gcc" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" "gcc" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" "gcc" "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d"

@@ -884,6 +884,30 @@ C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+
+# target to build an object file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+
+# target to preprocess a source file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+
+# target to generate assembly for a file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
 C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
@@ -1209,6 +1233,9 @@ help:
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
