@@ -16,6 +16,7 @@ int main() {
     // Initialize chosen serial port
     stdio_init_all();
 
+    // Initialize I2C interface pins
     i2c_init(i2c_default, 400 * 1000);
     gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
