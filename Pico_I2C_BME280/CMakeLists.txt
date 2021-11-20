@@ -14,15 +14,15 @@ pico_sdk_init()
 
 # Tell CMake where to find the executable source file
 add_executable(${PROJECT_NAME} 
-    bme280/bme280_defs.h 
-    bme280/bme280.h 
-    bme280/bme280.c
-    bme280/bme280_api.c
-    bme280/bme280_api.h
     main.c
+    bme280/bme280_api.h
+    bme280/bme280_api.c
+    bme280/bme280_defs.h
+    bme280/bme280.h
+    bme280/bme280.c
 )
 
-include_directories(Inc)
+
 
 # Create map/bin/hex/uf2 files
 pico_add_extra_outputs(${PROJECT_NAME})

@@ -68,19 +68,19 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/bme280/bme280.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/bme280/bme280.c.obj: ../bme280/bme280.c
-CMakeFiles/main.dir/bme280/bme280.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/bme280/bme280.c.obj"
-	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/bme280/bme280.c.obj -MF CMakeFiles\main.dir\bme280\bme280.c.obj.d -o CMakeFiles\main.dir\bme280\bme280.c.obj -c D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\bme280\bme280.c
+CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main.c.obj: ../main.c
+CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.c.obj"
+	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main.c.obj -MF CMakeFiles\main.dir\main.c.obj.d -o CMakeFiles\main.dir\main.c.obj -c D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\main.c
 
-CMakeFiles/main.dir/bme280/bme280.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/bme280/bme280.c.i"
-	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\bme280\bme280.c > CMakeFiles\main.dir\bme280\bme280.c.i
+CMakeFiles/main.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.c.i"
+	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\main.c > CMakeFiles\main.dir\main.c.i
 
-CMakeFiles/main.dir/bme280/bme280.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/bme280/bme280.c.s"
-	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\bme280\bme280.c -o CMakeFiles\main.dir\bme280\bme280.c.s
+CMakeFiles/main.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
+	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\main.c -o CMakeFiles\main.dir\main.c.s
 
 CMakeFiles/main.dir/bme280/bme280_api.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/bme280/bme280_api.c.obj: ../bme280/bme280_api.c
@@ -96,19 +96,19 @@ CMakeFiles/main.dir/bme280/bme280_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/bme280/bme280_api.c.s"
 	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\bme280\bme280_api.c -o CMakeFiles\main.dir\bme280\bme280_api.c.s
 
-CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.c.obj: ../main.c
-CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/main.c.obj"
-	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main.c.obj -MF CMakeFiles\main.dir\main.c.obj.d -o CMakeFiles\main.dir\main.c.obj -c D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\main.c
+CMakeFiles/main.dir/bme280/bme280.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/bme280/bme280.c.obj: ../bme280/bme280.c
+CMakeFiles/main.dir/bme280/bme280.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/bme280/bme280.c.obj"
+	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/bme280/bme280.c.obj -MF CMakeFiles\main.dir\bme280\bme280.c.obj.d -o CMakeFiles\main.dir\bme280\bme280.c.obj -c D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\bme280\bme280.c
 
-CMakeFiles/main.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.c.i"
-	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\main.c > CMakeFiles\main.dir\main.c.i
+CMakeFiles/main.dir/bme280/bme280.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/bme280/bme280.c.i"
+	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\bme280\bme280.c > CMakeFiles\main.dir\bme280\bme280.c.i
 
-CMakeFiles/main.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
-	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\main.c -o CMakeFiles\main.dir\main.c.s
+CMakeFiles/main.dir/bme280/bme280.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/bme280/bme280.c.s"
+	C:\VSARM\armcc\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Users\Javi\GitHub\Pico_Projects\Pico_I2C_BME280\bme280\bme280.c -o CMakeFiles\main.dir\bme280\bme280.c.s
 
 CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -745,9 +745,9 @@ CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/bme280/bme280.c.obj" \
-"CMakeFiles/main.dir/bme280/bme280_api.c.obj" \
 "CMakeFiles/main.dir/main.c.obj" \
+"CMakeFiles/main.dir/bme280/bme280_api.c.obj" \
+"CMakeFiles/main.dir/bme280/bme280.c.obj" \
 "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -798,9 +798,9 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main.elf: CMakeFiles/main.dir/bme280/bme280.c.obj
-main.elf: CMakeFiles/main.dir/bme280/bme280_api.c.obj
 main.elf: CMakeFiles/main.dir/main.c.obj
+main.elf: CMakeFiles/main.dir/bme280/bme280_api.c.obj
+main.elf: CMakeFiles/main.dir/bme280/bme280.c.obj
 main.elf: CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 main.elf: CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 main.elf: CMakeFiles/main.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
