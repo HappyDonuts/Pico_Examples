@@ -22,6 +22,7 @@
     "files.associations": {
         "stdlib.h": "c",
         "sleep.h": "c",
-        "binary_info.h": "c"
+        "binary_info.h": "c",
+        "i2c.h": "c"
     }
 }

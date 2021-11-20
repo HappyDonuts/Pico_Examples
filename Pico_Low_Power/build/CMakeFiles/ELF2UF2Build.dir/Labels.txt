@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/CMakeFiles/ELF2UF2Build
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/CMakeFiles/ELF2UF2Build.rule
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/CMakeFiles/ELF2UF2Build-complete.rule
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+D:/Users/Javi/GitHub/Pico_Projects/Pico_Low_Power/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
